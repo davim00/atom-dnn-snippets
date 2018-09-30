@@ -169,7 +169,7 @@
   'DNN Skin Token: User Login Control':
     'prefix': 'dnnlogin'
     'description': 'Dual state control – displays “Login” for anonymous users and "Logout" for authenticated users.'
-    'body': '<dnn:Login runat="server" id="${1:dnnLogin}" Text="${2:Login} CssClass="$3" LogoffText="$4" LegacyMode="${5:[true, false]}" />'
+    'body': '<dnn:Login runat="server" id="${1:dnnLogin}" Text="${2:Login}" CssClass="$3" LogoffText="$4" LegacyMode="${5:[true, false]}" />'
 
   #[User Profile]
   'DNN Skin Token: User Email':
